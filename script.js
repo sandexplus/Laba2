@@ -88,7 +88,7 @@ window.addEventListener('load', function OnWindowLoaded() {
       let textInside = document.getElementById('span' + deleteCount);
       textInside.style.textDecoration='line-through';
       textInside.style.color='gray';
-      e.target.remove();
+      e.target.style.visibility = 'hidden';
     }
 
     function closeTaskFunk(e){
